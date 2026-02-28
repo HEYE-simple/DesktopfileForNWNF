@@ -1,0 +1,130 @@
+<!--
+    这是PCL的桌面配置文件,如果你把玩这个文件把PCL玩炸了,删了重下一个就可以了.
+    冷知识:不要分发!不要分发!不要分发!
+-->
+
+<local:MyCard Title="服务器信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#00bfff" Text="欢迎加入heye's Server!"/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,-10" Foreground="#00bfff" Text=""/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#0099ff" Text="本服务器是一个minecraft-Java版服务器,服务器核心为mohist-forge-1.20.1."/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,-10" Foreground="#00bfff" Text=""/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#ff3535" Text="本主页文件版本:26.1.2-release"/>
+
+        <local:MyHint Margin="0,15,0,2" IsWarn="False"
+            Text="IP:heye1023.92mc.top"
+        />
+        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+            Text="点击复制IP" EventType="复制文本" EventData="heye1023.92mc.top" 
+        />
+
+        <local:MyHint Margin="0,15,0,2" IsWarn="False"
+            Text="启动服务器游戏版本."
+        />
+        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
+            Text="点击启动(用户)" EventType="启动游戏" EventData="Mineserver" 
+        />
+        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
+            Text="点击启动(腐竹)(没事别点)" EventType="启动游戏" EventData="Server_release" 
+        />
+
+
+
+        <!--<local:MyButton Margin="0,10,0,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            Text="Operator" EventType="弹出窗口" EventData="你是管理员?|是的话就点下面的按钮" 
+        />
+        <local:MyButton Margin="0,10,0,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            Text="Get operator." EventType="打开文件" EventData="1.exe" 
+        />-->
+
+
+        <!--<local:MyHint Margin="0,15,0,2" IsWarn="False"
+            Text="Web:yunmc.vip(海绵官网)"
+        />
+        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+            Text="点击打开海绵官网" EventType="打开网页" EventData="https://www.yunmc.vip/"
+        />
+
+        <local:MyHint Margin="0,15,0,2" IsWarn="False"
+            Text="Web:panel.yunmc.vip(后台官网)"
+        />
+        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+            Text="点击打开后台官网" EventType="打开网页" EventData="https://panel.yunmc.vip/"
+        />-->
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="小工具" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1.5*" />
+            </Grid.ColumnDefinitions>
+                <local:MyButton Grid.Column="0" Margin="0,0,0,0" Height="35" ColorType="Highlight"
+                    Text="内存优化" EventType="内存优化" 
+                />
+                <local:MyButton Grid.Column="1" Margin="5,0,0,0" Height="35" ColorType="Highlight"
+                    Text="清理垃圾" EventType="清理垃圾"
+                />
+        </Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+                <local:MyButton Grid.Column="0" Margin="0,10,0,0" Height="35" ColorType="Highlight"
+                    Text="今日人品" EventType="今日人品" 
+                />
+                <local:MyButton Grid.Column="1" Margin="5,10,0,0" Height="35" ColorType="Highlight"
+                    Text="千万要点" EventType="打开文件" EventData="2.vbs"
+                />
+        </Grid>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="彩蛋" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+
+        <local:MyHint Margin="0,5,0,2" IsWarn="False"
+            Text="大东北!"
+        />
+        <local:MyButton Margin="0,4,0,10" Height="35" Padding="25,0,25,0"
+            Text="东北雨姐的小曲" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1u4FYeeEWi/" 
+        />
+
+        <local:MyHint Margin="0,5,0,2" IsWarn="False"
+            Text="诈骗小曲!"
+        />
+        <local:MyButton Margin="0,4,0,10" Height="35" Padding="25,0,25,0"
+            Text="Never Gonna Give You Up." EventType="打开网页" EventData="https://www.bilibili.com/video/BV1UT42167xb/" 
+        />
+
+        <local:MyHint Margin="0,5,0,2" IsWarn="False"
+            Text="一勺料汁(天真的橡皮)!"
+        />
+        <local:MyButton Margin="0,4,0,10" Height="35" Padding="25,0,25,0"
+            Text="一笑了之!" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1ijtuz6EoB/" 
+        />
+
+        <local:MyHint Margin="0,5,0,2" IsWarn="False"
+            Text="小蓝豆的小曲!"
+        />
+        <local:MyButton Margin="0,4,0,10" Height="35" Padding="25,0,25,0"
+            Text="vintage intro xx" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1zg7pzdEBD/"
+        />
+
+        <local:MyHint Margin="0,5,0,2" IsWarn="False"
+            Text="神的说唱!"
+        />
+        <local:MyButton Margin="0,4,0,10" Height="35" Padding="25,0,25,0"
+            Text="王不见王" EventType="打开文件" EventData="C:\\1.mp3"
+        />
+    </StackPanel>
+</local:MyCard>
+
