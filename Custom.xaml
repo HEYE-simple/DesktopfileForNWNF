@@ -6,7 +6,7 @@
 <local:MyCard Title="服务器信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
 
-        <TextBlock TextWrapping="Wrap" Margin="0,-5,0,4" Foreground="#00bfff" 
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#00bfff" 
             Text="欢迎加入No War No Fight服务器!"
         />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#00bfff" 
@@ -121,4 +121,5 @@
         />
     </StackPanel>
 </local:MyCard>
+
 
