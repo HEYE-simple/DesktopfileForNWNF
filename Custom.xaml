@@ -6,51 +6,46 @@
 <local:MyCard Title="服务器信息" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
 
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#00bfff" Text="欢迎加入heye's Server!"/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,-10" Foreground="#00bfff" Text=""/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#0099ff" Text="本服务器是一个minecraft-Java版服务器,服务器核心为mohist-forge-1.20.1."/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,-10" Foreground="#00bfff" Text=""/>
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#ff3535" Text="本主页文件版本:26.1.2-release"/>
-
-        <local:MyHint Margin="0,15,0,2" IsWarn="False"
-            Text="IP:heye1023.92mc.top"
+        <TextBlock TextWrapping="Wrap" Margin="0,-5,0,4" Foreground="#00bfff" 
+            Text="欢迎加入No War No Fight服务器!"
         />
-        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
-            Text="点击复制IP" EventType="复制文本" EventData="heye1023.92mc.top" 
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Foreground="#00bfff" 
+            Text="以后你就是  NWNF  大家庭的一份子了!"
         />
 
-        <!--<local:MyHint Margin="0,15,0,2" IsWarn="False"
-            Text="启动服务器游戏版本."
+        <local:MyHint Margin="0,0,0,0" IsWarn="False"
+            Text="[INFO]  本服务器是一个minecraft-Java版服务器,服务器核心为youer-neoforge-1.21.1."
         />
-        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
-            Text="点击启动(用户)" EventType="启动游戏" EventData="Mineserver" 
+
+        <local:MyHint Margin="0,10,0,2" IsWarn="False"
+            Text="[INFO]  IP:heye.92mc.top"
         />
-        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
+        <local:MyButton Margin="0,1,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
+            Text="点击复制IP" EventType="复制文本" EventData="heye.92mc.top" 
+        />
+
+
+
+        <local:MyHint Margin="0,10,0,2" IsWarn="False"
+            Text="[INFO]  启动服务器游戏版本."
+        />
+        <local:MyHint Margin="0,3,0,2" IsWarn="True"
+            Text="[WARN]  请确保你并没有修改服务器客户端的名字!"
+        />
+        <local:MyButton Margin="0,1,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
+            Text="点击启动" EventType="启动游戏" EventData="Server_NWNF-release" 
+        />
+        <!--<local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="55,0,55,0"
             Text="点击启动(腐竹)(没事别点)" EventType="启动游戏" EventData="Server_release" 
         />-->
 
 
-        <!--<local:MyButton Margin="0,10,0,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-            Text="Operator" EventType="弹出窗口" EventData="你是管理员?|是的话就点下面的按钮" 
+
+        <TextBlock TextWrapping="Wrap" Margin="0,5,0,-7" Foreground="#b7b7b7" 
+            Text="本主页文件版本:Ver26.2.1-release"
         />
-        <local:MyButton Margin="0,10,0,0" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-            Text="Get operator." EventType="打开文件" EventData="1.exe" 
-        />-->
 
 
-        <!--<local:MyHint Margin="0,15,0,2" IsWarn="False"
-            Text="Web:yunmc.vip(海绵官网)"
-        />
-        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
-            Text="点击打开海绵官网" EventType="打开网页" EventData="https://www.yunmc.vip/"
-        />
-
-        <local:MyHint Margin="0,15,0,2" IsWarn="False"
-            Text="Web:panel.yunmc.vip(后台官网)"
-        />
-        <local:MyButton Margin="0,4,0,0" Height="35" HorizontalAlignment="Left" Padding="25,0,25,0"
-            Text="点击打开后台官网" EventType="打开网页" EventData="https://panel.yunmc.vip/"
-        />-->
 
     </StackPanel>
 </local:MyCard>
@@ -126,5 +121,4 @@
         />
     </StackPanel>
 </local:MyCard>
-
 
